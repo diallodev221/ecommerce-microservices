@@ -4,5 +4,4 @@ spring:
 
   data:
     mongodb:
-      database: ecommerce
-      uri: mongodb+srv://diallodev:softwaredeveloper@ecommerce.brcmh1o.mongodb.net/ecommerce?retryWrites=true&w=majority
+      uri: mongodb://localhost:27017/product-service
