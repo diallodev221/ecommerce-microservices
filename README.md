@@ -73,16 +73,6 @@ The inventory service is responsible for managing inventory information. It prov
 
 The API Gateway is responsible for routing requests to the appropriate service. It also provides cross-cutting concerns such as authentication and rate limiting.
 
-## Getting Started
-
-To get started with this project, follow these steps:
-
-1. Clone the repository.
-2. Set up the MySQL database by running the script `database.sql` in the `database` directory.
-3. Update the database configuration in the `application.yml` file in each service.
-4. Start the services in the following order: Eureka Server, Config Server, Product Service, Order Service, Inventory Service, and API Gateway.
-
-
 ## Conclusion
 
 This project demonstrates how to build an e-commerce system using microservices architecture. Each service is built using Spring Boot and communicates with other services using REST API. The system is highly scalable, fault-tolerant, and easy to maintain.
