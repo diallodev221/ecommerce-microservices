@@ -1,2 +1,16 @@
-package com.diallodev.inventoryservice.inventory;public record InventoryResponse() {
+package com.diallodev.inventoryservice.inventory;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Builder
+public class InventoryResponse {
+    private String skuCode;
+    private boolean isInStock;
 }
