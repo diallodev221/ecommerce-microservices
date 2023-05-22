@@ -1,0 +1,48 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origins: http://localhost:4200
+            allowed-headers:
+              - content-type
+              - allowed-method
+                  - GET
+                  - POST
+                  - PUT
+                  - DELETE
+                  - OPTIONS
+
+      routes:
+            ## Product-service
+        - id: product
+          uri: lb://product-service
+          predicates:
+            - Path= /api/v1/products/**
+            - Method= GET, POST, PUT, DELETE
+
+            ## Order-service
+        - id: order
+          uri: lb://order-service/**
+          predicates:
+            - Path= /api/v1/order/**
+            - Method= GET, POST, PUT, DELETE
+
+
+logging:
+  level:
+    root: info
+    org.springframework.cloud.gateway.route.RouteDefinitionLocator: info
+    org.springframework.cloud.gateway: trace
+
+server:
+  port: 8765
