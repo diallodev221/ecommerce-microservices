@@ -23,19 +23,33 @@ spring:
                   - OPTIONS
 
       routes:
-            ## Product-service
+            ## Product service Route
         - id: product
           uri: lb://product-service
           predicates:
             - Path= /api/v1/products/**
             - Method= GET, POST, PUT, DELETE
 
-            ## Order-service
+            ## Order service Route
         - id: order
           uri: lb://order-service/**
           predicates:
             - Path= /api/v1/order/**
             - Method= GET, POST, PUT, DELETE
+
+            ## Discovery server Route
+        - id: discovery-server
+          uri: http://localhost:8761
+          predicates:
+            - Path= /eureka/web
+
+            ## Discovery server static resources Route
+        - id: discovery-server-static
+          uri: http://localhost:8761
+          predicates:
+            - Path= /eureka/**
+
+
 
 
 logging:
