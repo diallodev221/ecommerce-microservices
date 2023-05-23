@@ -5,65 +5,39 @@ This project provides an example of an e-commerce system built using microservic
 ## Technologies
 
 The following technologies are used in this project:
+- [x] Spring Boot
+- [x] Spring Data JPA
+- [x] Spring Data MongoDB
+- [x] Spring Security
+- [x] Spring Cloud Gateway for API Gateway
+- [x] Spring Cloud Sleuth for distributed tracing
+- [x] Spring Cloud Config for external configuration
+- [x] Spring Cloud Zipkin for distributed tracing
+- [x] MySQL for data storage
+- [x] MongoDB
+- [x] PostgreSQL
 
-- Spring Boot
-- Spring Data JPA
-- Spring Cloud Netflix Eureka for service discovery
-- Spring Cloud Gateway for API Gateway
-- Spring Cloud Config for external configuration
-- Spring Cloud Sleuth for distributed tracing
-- Spring Cloud Zipkin for distributed tracing
-- MySQL for data storage
-
-## Dependencies
-
-This project uses the following additional dependencies:
-
-### Jib
-
-[Jib](https://github.com/GoogleContainerTools/jib) is a container image builder for Java applications. It allows you to build container images for your application without needing to write Dockerfiles. Jib can be used to build images for deployment to Kubernetes, Docker, or any other container platform.
-
-### Grafana
-
-[Grafana](https://grafana.com/) is an open-source platform for monitoring and observability. It provides a powerful dashboarding engine and supports a wide range of data sources, including Prometheus.
-
-### Prometheus
-
-[Prometheus](https://prometheus.io/) is an open-source monitoring system and time-series database. It is designed for monitoring and alerting and provides a powerful query language for analyzing time-series data.
-
-### Testcontainers
-
-[Testcontainers](https://www.testcontainers.org/) is a Java library that provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. Testcontainers makes it easy to write integration tests that use real instances of these components.
+- [x] [Jib](https://github.com/GoogleContainerTools/jib) for building container images for your application without needing to write Dockerfiles.
 
 ## Monitoring and Observability
+- [x] Spring Boot Actuator
+- [x] [Grafana](https://grafana.com/) for monitoring and observability.
+- [x] [Prometheus](https://prometheus.io/) for monitoring system and time-series database.
+- [x] [Micrometer](https://micrometer.io/) for collecting and reporting metrics.
 
-To enable monitoring and observability in the system, the following components are used:
+## Integrating Tests
+- [x] [Testcontainers](https://www.testcontainers.org/) to write integration tests that use real instances of these components.
 
-### Spring Boot Actuator
-
-Spring Boot Actuator is a set of APIs that provide operational information about the application. It includes metrics, health checks, and other useful information.
-
-### Micrometer
-
-[Micrometer](https://micrometer.io/) is a metrics collection library that supports multiple monitoring systems. It provides a simple API for collecting and reporting metrics.
-
-### Prometheus Metrics
-
-The Spring Boot Actuator and Micrometer provide support for exposing metrics in a format that can be scraped by Prometheus.
-
-### Grafana Dashboards
-
-Grafana provides a powerful dashboarding engine that can be used to create custom dashboards for monitoring and observability. The project includes sample dashboards for monitoring the system.
 
 ## Services
 
 ### Product Service
 
-The product service is responsible for managing product information. It provides APIs to create, update, and retrieve product information. The service also provides APIs to search for products based on different criteria such as name, category, and price.
+The product service is responsible for managing product information. It provides APIs to create, update, and retrieve product information.
 
 ### Order Service
 
-The order service is responsible for managing order information. It provides APIs to create, update, and retrieve order information. The service also provides APIs to search for orders based on different criteria such as customer name, order date, and order status.
+The order service is responsible for managing order information. It provides APIs to create, update, and retrieve order information.
 
 ### Inventory Service
 
