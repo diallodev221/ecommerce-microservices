@@ -1,8 +1,6 @@
 
 
 Oproduct-service/src/main/java/com/diallo/productservice/product/ProductDTO.java,f/9/f922e2bc4f3ab3bae645347547cf4b6c9ac455fd
-S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 Ç
 Rproduct-service/src/main/java/com/diallo/productservice/product/ProductMapper.java,8/6/868715d0de46355f6f0ce934d1e3cc4d53d6ccc0
 É
@@ -11,8 +9,6 @@ Sproduct-service/src/main/java/com/diallo/productservice/product/ProductService.
 Vproduct-service/src/main/java/com/diallo/productservice/product/ProductRepository.java,d/4/d43b72d4aebd1a894739996e24146fa09a98cdad
 ç
 ]product-service/src/main/java/com/diallo/productservice/product/ProductNotFoundException.java,f/d/fde6aab3cfa50feab7195f2213429fd919f3fc09
-]
--.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
 |
 Lproduct-service/src/main/java/com/diallo/productservice/product/Product.java,a/1/a14220090b96620ed83714c77b0c14938af28da2
 Å
@@ -25,8 +21,6 @@ E
 inventory-service.iml,e/c/eccd789bd8b74f622ae9b48579e3d5c54db8cf44
 ä
 Zproduct-service/src/test/java/com/diallo/productservice/ProductServiceApplicationTest.java,4/a/4a9ebbaddf14e61ac7312a4d9332994b3a897f78
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 Ä
 Porder-service/src/main/java/com/diallodev/orderservice/order/OrderLineItems.java,1/2/129c34de718a6933d1a6451257056b8fa1962b47
 w
@@ -41,5 +35,34 @@ ainventory-service/src/main/java/com/diallodev/inventoryservice/inventory/Invent
 _inventory-service/src/main/java/com/diallodev/inventoryservice/inventory/InventoryResponse.java,7/a/7a2fcdf00b588ade1b943b633f731db334ae209d
 É
 Sorder-service/src/main/java/com/diallodev/orderservice/order/InventoryResponse.java,e/4/e45237617b7921651f405406d755e278be9b8e72
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+ã
+[discovery-server/src/main/java/com/dialldev/discoveryserver/DiscoveryServerApplication.java,e/8/e823370c33f9133b9bcc991c00403768549e348f
+é
+^inventory-service/src/main/java/com/diallodev/inventoryservice/inventory/InventoryService.java,d/a/dac1956c6c92d563be302efd6132a1b25d0fa72a
+ë
+ainventory-service/src/main/java/com/diallodev/inventoryservice/inventory/InventoryController.java,b/2/b2dabf9d583767c9bcc5fa3bd51b09e1b691eb42
+~
+Norder-service/src/main/java/com/diallodev/orderservice/order/OrderService.java,1/7/1716e9c62b158541ecf2a6556506e01fed9d6e99
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+Å
+Qorder-service/src/main/java/com/diallodev/orderservice/order/WebClientConfig.java,a/3/a3735c5371e7be4b5fa2b5df7688c5c479d491d9
+É
+Sorder-service/src/main/java/com/diallodev/orderservice/OrderServiceApplication.java,6/d/6db24409f4becf68a6ad6a3f7fb7453ade91dca2
+è
+_inventory-service/src/main/java/com/diallodev/inventoryservice/InventoryServiceApplication.java,c/b/cbe16d7787885bd7d6e28e2688ae93a40d6be008
+Ü
+Vproduct-service/src/main/java/com/diallo/productservice/ProductServiceApplication.java,d/c/dc3c12bd6dc3ae3e8e08a05f50704553313127f4
+Ü
+Vproduct-service/src/main/java/com/diallo/productservice/product/ProductController.java,8/0/80e5b445d1884745bfc057f1d3039c5b934c9a43
+Å
+Qorder-service/src/main/java/com/diallodev/orderservice/order/OrderController.java,f/a/fa76eb512d8e2a5d00438f5f7bb1049820170de5
+G
+product-service/pom.xml,f/c/fcf146007330bb14605a232d25428bbf6aa50b7b
+E
+order-service/pom.xml,d/3/d3bf53ecc442740843266a635cbfe9807b992566
+I
+inventory-service/pom.xml,e/3/e347da292c40d252c508703eddff460d1f378f1c
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  keycloak:
+    container_name: keycloak-security
+    image: quay.io/keycloak/keycloak:18.0.0
+    ports:
+      - 8181:8080
+    environment:
+        - KEYCLOAK_ADMIN=admin
+        - KEYCLOAK_ADMIN_PASSWORD=admin

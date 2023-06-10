@@ -9,6 +9,10 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
 
+  # external resources
+  username: eureka
+  password: password
 
 server:
   port: 8761
+
